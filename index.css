@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Borel&family=Fuggles&family=Lato:wght@400;700;900&family=Oswald:wght@300;400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700&family=Skranji:wght@400;700&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    cursor:url(./assets/boxing-glove-before0.png), auto;    
+    height: 100vh;
+    /* background-color: black; */
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVITchJSkrLi4uFx8/ODMtNzQtMSsBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAbAAEBAQEBAQEBAAAAAAAAAAAAAQIDBAUHBv/EACwQAQEAAgEDAgMHBQAAAAAAAAABAhEDBBIhQXEFEzEGFCNRYYGxIjKCwdH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A/DwAAAUAAAAAAAAAAUBFAAAAFBFGpATS9reODvjwg8vaaey8FYvEDy6NPReJjLAHHSN2MgiKAgAAAIAAAAKAgoAAAAACggoACgii6BBrSyAkjeGK44PVw8FoL03Dt/RfDPguXL9MbfaOHwzoN2Wv0j7IdZ9xvfx6mVxuNtkvi+nkH8L1fwTLCecdPk5dDd60/YPj/wBquXl48+LfH2545YZfhcdurNXVs8e8fxnJ0XHhhxc085ZXG2XzP7uT0/xxB/NYfB8rPo+f13QXj+s0/Yul+2vUTGT8GWeuPT8OP8Y6fxv2pz+9cnJzZ3fJne7K+Ju/sD875MNONj6nV9Nq14M+PQOCN2M6BkaQEABAUEUAAAAAAUEUABQANKCLpdLoE0sjUjUxBmYuuHG1jg78eAHFxPpdLwxw4sXt4roH1Olsmn0uPq9T6vh4crp88H0ubqd+q9T1H4PHN/SY/wA8n/XybzNc3N/Rj+3+wej7zr1c+bqNx4cuVzy5Qc+qkr5nNxvfyZvLyA8GeDlcXrzjjliDz2Jp1sYsBgasQGRFAAAAAVFAAAUAFFBGtCwCRZCRuQCR0xxTGOmMBvCO2Dni6Yg74V2xyebGtzIHqnIvzHl7l7wei8i8nJ4n7PL3mWYN5ZueWbFyYuQNZZOWVLWLQZycco65VzyBysYsdKzQc7E03WQcwAAAFAAFBFABRQFFAiwjUAjciRqA1G4zGoDcblc5WpQdJWpXPayg6dxtmANbS5M1m0FtZtLWbQLWbS1m0EtYrVZoM1it1mgyy1UBxABQAAAUABQBQUBYKCxYkWA1GozGoDUajEagNxqMRYDcbjEduLDYPR0XQ8vPl2cPFycuerezjwyzy1PXUdMvh3NOT5N4uWcu9fKvHlOTf5dutvR0vJMJ4+rt86dm/G/mS79foD5/X/Dufp7Jz8PLw5Wbk5ePLjtn03JlHgvq+z1XP8yf1eXyMp5y/Sg51mtZMUEtZq1mgVmlSglZqpQREyyjHfQZUAAAUAAFAVFBQAVUUFjTLQKsRQaixmNQGo3GI3AdMXfCvPjXXGg9vBq2S3U3N2Tdk9nbrsccMrhhllnjL4yyxmFv7S3+Xiwz01y8u7b7gzlm80vnL3dMq4Y3zl7guTlk6WsUHOs1qs0ErNMrpzyyt/QFyy0xcrU0mwNIAAACooAACgCgAqooKqANKigqxFgNRYzGoDUajEagOkrcrlK1KDrMi5OezYNWuWN85e7VrljfOXuDdrNpa555gZZOWWf5JlXO5AtZ2WswFtSKziDQlNgu/wBCooEXc/JAAUABQFRQFAFVFBVRQWKiwFajKyg0sZlXYNbXbOzYNm2e5Ng1a5TL6+5nkzjN78gtrnnW8tT8645ZAzWatrIG0ADZaACKAqoAoACooCooCooCgCqgCqigqooKqRqYgKvavaDKr2xdAym23POg52rjfF92bTG+L7gubjXS1zoM1FrIAACKgAANAAKAAoAqAKqAKoAqgAqgEjWkAaka3QBd02ALum6AJ5c6AOdPS+4Az6OdUBlAAABAAAAf/9k=');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    border: 8px solid rgb(205, 0, 0);
+    background-color: rgb(243, 68, 68);
+    background-image: url('./assets/before.png');
+    background-size: cover;
+    box-shadow: 0 0  10px red;
+}
+
+.nailFrame{
+    z-index: 999;
+    position: absolute;
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+    top: -38px;
+    left: 230px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(205, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0  10px red;
+}
+.hitTxt{
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 0 5px black;
+}
+.nail{
+    width: 4px;
+    height: 4px;
+    background-color: rgb(211, 211, 211);
+    
+}
+.pushBtn{
+    opacity: 0;
+    border-radius: 80px;
+    width: 200px;
+    height: 320px;
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    right: 100px;
+}
+.bandAid{
+   position: relative;
+   top: 300px;
+   left: 290px;
+}
+.leftAid{
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.694);
+    transform: rotate(45deg);
+    border-radius: 10px;
+    width: 30px;
+    height: 70px;
+    background-color: rgb(194, 96, 96);
+}
+.rightAid{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.585);
+    position: absolute;
+    transform: rotate(130deg);
+    border-radius: 10px;
+    width: 30px;
+    height: 70px;
+    background-color: rgb(195, 85, 85);
+}
+.pushBtn{
+    cursor:url(./assets/boxing-glove-before0.png), auto;    
+
+}
+.pushBtn:active{
+    cursor:url(./assets/punch1.png), auto;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hit My Sir😝</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <audio id="myAudio">
+        <source src="./assets/cry.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="punchSoundId">
+        <source src="./assets/punchSound.mp3" type="audio/mp3">
+    </audio>
+    <audio id="laughSoundId">
+        <source src="./assets/laugh.mp3" type="audio/mp3" >
+    </audio>
+    <div id="containerId"   class="container">
+        <div class="bandAid">
+            <div id="bandAidLeftId" class="leftAid"></div>
+            <div id="bandAidRightId" class="rightAid"></div>
+        </div>
+        <h3 class="hitTxt" >HIT ME😝</h3>
+        <button  onmousedown="imageClicked()" onmouseup="mouseReleased()"   class="pushBtn">click</button>
+        <div class="nailFrame">
+            <div class="nail"></div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
